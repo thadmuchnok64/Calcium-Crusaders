@@ -50,6 +50,14 @@ public class Entity : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// returns the speed of the entity
+    /// </summary>
+    public float GetSpeed()
+    {
+        return speed;
+    }
+
 
 
 }
